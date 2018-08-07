@@ -5,3 +5,7 @@ $('h1').click(function(){
 $('li').click(function(){
   console.log('any li was clicked');
 })
+
+$('input').eq(0).keypress(function(){
+  $('h3').toggleClass('turnBlue');
+})
