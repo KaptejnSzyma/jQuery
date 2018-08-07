@@ -1,5 +1,5 @@
 $('h1').click(function(){
-  console.log('There was a click!')
+  $(this).text('I was changed!')
 })
 
 $('li').click(function(){
